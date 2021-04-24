@@ -10,7 +10,7 @@ describe('Services', () => {
         browser.deleteCookies();
     });
 
-    it('should be able to click on the Trading Account from Services dropdown', () => {
+    it('should be able to click on the Trading Account from Services dropdown and verify few assertions', () => {
         // Navigate to login page
         browser.url(loginUrl);
         // To click the services dropdown from the top navigation bar
