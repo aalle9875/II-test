@@ -1,6 +1,8 @@
 class ServicesPage {
 
     // Reusable selector getters that will help us to avoid selector duplicates
+    
+    // Since the test is a single requirement all the selectors are handled in a single page object class
 
     get servicesLink() { return $('//span[@aria-label="Services dropdown"]'); }
     get tradingAccountLink() { return $('//span[contains(text(),"Trading Account")]'); }
