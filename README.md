@@ -6,7 +6,7 @@ Based on the requirement, I have used only one Page Object class to maintain all
 
 #**Quick Start:**
 
-Clone the git repo - **git clone https://github.com/aalle9875/II-test.git**
+Clone the git repo - **git clone https://github.com/amarnathalle/II-test.git**
 
 Install the dependencies and node modules - **npm install**
 
